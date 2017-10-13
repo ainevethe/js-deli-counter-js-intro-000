@@ -13,4 +13,5 @@ function nowServing() {
   } else {
     katzDeli.shift(name)
   }
+  return nowServing;
 }
