@@ -5,7 +5,7 @@ var i = 0;
 function takeANumber(katzDeliLine, name) {
   for (i = 0; i < katzDeliLine.length; i++) {
     katzDeli.push(name[i]);
-    return ("Welcome, " + name + ". You are number " + [i] + " in line.")
+    return ("Welcome, " + name + ". You are number " + katzDeli[i] + " in line.")
   }
   return takeANumber;
 }
