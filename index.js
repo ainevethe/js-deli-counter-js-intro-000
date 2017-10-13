@@ -7,11 +7,11 @@ function takeANumber(katzDeliLine, name) {
     return ("Welcome, " + name + ". You are number " + katzDeliLine.length + " in line.")
 }
 
-function nowServing(katzDeliLine, name) {
+function nowServing(katzDeliLine) {
 
   if (katzDeliLine !== 0) {
     return ("Currently serving " + katzDeliLine.shift() + ".");
   } else {
-    return ("There is nobocy waiting to be served!");
+    return ("There is nobody waiting to be served!");
   }
 }
