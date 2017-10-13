@@ -10,7 +10,7 @@ function takeANumber(katzDeliLine, name) {
 function nowServing(katzDeliLine, name) {
 
   if (katzDeliLine !=== 0) {
-    return ("Currently serving " + katzDeli.shift() + ".");
+    return ("Currently serving " + katzDeliLine.shift() + ".");
   } else {
     return ("There is nobocy waiting to be served!");
   }
