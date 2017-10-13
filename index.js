@@ -22,7 +22,8 @@ function currentLine(katzDeliLine) {
   } else {
     for (var i = 0; i < katzDeliLine.length; i++) {
       var place = i+1;
-    return("The line is currently: " + place + ". " + katzDeliLine[i])
+    return("The line is currently: " + place + ". " + katzDeliLine[i]+",")
+    i++;
   }
 }
 }
