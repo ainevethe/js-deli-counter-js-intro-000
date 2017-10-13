@@ -5,5 +5,6 @@ var i = 0;
 function takeANumber(katzDeliLine, name) {
     katzDeli.push(name);
     var line = katzDeliLine.length;
+    var line = line + 1;
     return (`Welcome, ${name}. You are number ${line} in line.`)
 }
